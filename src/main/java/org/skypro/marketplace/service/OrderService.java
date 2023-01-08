@@ -1,10 +1,8 @@
-package service;
+package org.skypro.marketplace.service;
 
-import component.Cart;
+import org.skypro.marketplace.component.Cart;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestParam;
 
-import java.util.Collections;
 import java.util.List;
 
     @Service

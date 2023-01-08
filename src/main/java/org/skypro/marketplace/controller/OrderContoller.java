@@ -1,10 +1,10 @@
-package controller;
+package org.skypro.marketplace.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import service.OrderService;
+import org.skypro.marketplace.service.OrderService;
 
 import java.util.List;
 
